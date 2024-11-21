@@ -9,3 +9,7 @@
 //npm install -g vercel
 //vercel
 //verce --prod
+
+//cors
+// npm install cors
+//npm install --save-dev @types/cors
