@@ -4,3 +4,8 @@
 //tssc --init
 //npm add @types/express
 //  "dev": "ts-node-dev --transpile-only src/server.ts"
+
+//instalar vercel
+//npm install -g vercel
+//vercel
+//verce --prod

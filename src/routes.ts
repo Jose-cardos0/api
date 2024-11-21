@@ -4,7 +4,7 @@ const router = Router();
 
 //exemplo http://localhost:3333/tarefas
 
-router.get("/tarefas", (req: Request, res: Response) => {
+router.get("/produtos", (req: Request, res: Response) => {
   res.json([
     {
       id: "1",
