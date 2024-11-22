@@ -233,7 +233,7 @@ router.get("/produtos", (req, res) => {
         sodio: "566",
         calcio: "651",
       },
-      nutritional30g: {
+      nutritional200g: {
         kcal: "95",
         carbo: "0,1",
         acucaresTotais: "0,1",
@@ -298,7 +298,7 @@ router.get("/produtos", (req, res) => {
         sodio: "563",
         calcio: "644",
       },
-      nutritional30g: {
+      nutritional200g: {
         kcal: "94",
         carbo: "0,1",
         acucaresTotais: "0,1",
@@ -363,7 +363,7 @@ router.get("/produtos", (req, res) => {
         sodio: "566",
         calcio: "651",
       },
-      nutritional30g: {
+      nutritional200g: {
         kcal: "97",
         carbo: "0,1",
         acucaresTotais: "0,1",
@@ -423,7 +423,7 @@ router.get("/produtos", (req, res) => {
         informativos:
           "Não contém quantidades significativas de carboidratos,açúcares totais, açúcares adicionados, proteínas, gorduras trans e fibras alimentares.",
       },
-      nutritional10g: {
+      nutritional200g: {
         kcal: "75",
         gordurasTotais: "8,3",
         gordurasSaturadas: "5,4",
