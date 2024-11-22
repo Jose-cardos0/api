@@ -82,7 +82,7 @@ router.get("/produtos", (req, res) => {
         porcao: "porcao por embalagem: 5",
         porcaototal: "200 ml (1 copo)",
       },
-      nutritional100ml: {
+      nutritional100g: {
         kcal: "30",
         carbo: "4,5",
         acucaresTotais: "4,5",
@@ -95,7 +95,7 @@ router.get("/produtos", (req, res) => {
         sodio: "56",
         calcio: "88",
       },
-      nutritional200ml: {
+      nutritional200g: {
         kcal: "60",
         carbo: "9,0",
         acucaresTotais: "9,0",
@@ -148,7 +148,7 @@ router.get("/produtos", (req, res) => {
         porcao: "porção por embalagem: 5",
         porcaototal: "200 ml (1 copo)",
       },
-      nutritional100ml: {
+      nutritional100g: {
         kcal: "57",
         carbo: "4,5",
         acucaresTotais: "4,5",
@@ -163,7 +163,7 @@ router.get("/produtos", (req, res) => {
         sodio: "56",
         calcio: "88",
       },
-      nutritional200ml: {
+      nutritional200g: {
         kcal: "115",
         carbo: "9",
         acucaresTotais: "9",
