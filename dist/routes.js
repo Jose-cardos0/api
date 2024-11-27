@@ -214,6 +214,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "4",
       produto: "queijo mussarela",
+      imagem: "https://i.ibb.co/PrBQHCg/MUSSARELA-4k-FRENTE-SF.png",
+      imagem2: "https://i.ibb.co/gRzSCmH/MUSSARELA-4k-LADO-B-SF.png",
       porcoes: {
         porcaoMenor: "30 g",
         porcaoMiaor: "100 g",
