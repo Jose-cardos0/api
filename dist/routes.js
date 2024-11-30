@@ -10,6 +10,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "1",
       produto: "leite uht integral",
+      imagem: "https://i.ibb.co/YN4HRqd/leite-Integral1.png",
+      imagem2: "https://i.ibb.co/DYR5gfw/leite-Integral2.png",
       porcoes: {
         porcaoMenor: "100ml",
         porcaoMiaor: "200ml",
@@ -76,6 +78,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "2",
       produto: "leite uht desnatado",
+      imagem: "https://i.ibb.co/XFgQrzv/desnatado1.png",
+      imagem2: "https://i.ibb.co/HdC8Kw0/desnatado2.png",
       porcoes: {
         porcaoMenor: "100ml",
         porcaoMiaor: "200ml",
@@ -142,6 +146,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "3",
       produto: "leite uht zero lactose",
+      imagem: "https://i.ibb.co/yQYNRQx/lactose1.png",
+      imagem2: "https://i.ibb.co/TRwtRck/lactose2.png",
       porcoes: {
         porcaoMenor: "100ml",
         porcaoMiaor: "200ml",
@@ -214,8 +220,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "4",
       produto: "queijo mussarela",
-      imagem: "https://i.ibb.co/PrBQHCg/MUSSARELA-4k-FRENTE-SF.png",
-      imagem2: "https://i.ibb.co/gRzSCmH/MUSSARELA-4k-LADO-B-SF.png",
+      imagem: "https://i.ibb.co/hMRdMLN/mussarelafrente.png",
+      imagem2: "https://i.ibb.co/KGQwd6z/mussarelalado.png",
       porcoes: {
         porcaoMenor: "30 g",
         porcaoMiaor: "100 g",
@@ -281,6 +287,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "5",
       produto: "queijo de coalho",
+      imagem: "https://i.ibb.co/gVNB1Wd/coalhofrente.png",
+      imagem2: "https://i.ibb.co/DbKvkfq/coalho-Lado.png",
       porcoes: {
         porcaoMenor: "30 g",
         porcaoMiaor: "100 g",
@@ -346,6 +354,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "6",
       produto: "queijo de prato",
+      imagem: "https://i.ibb.co/gtDzBTr/prato-Frente.png",
+      imagem2: "https://i.ibb.co/gPsFpct/prato-Lado2.png",
       porcoes: {
         porcaoMenor: "30 g",
         porcaoMiaor: "100 g",
@@ -411,6 +421,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "7",
       produto: "manteiga de primeira qualidade com sal",
+      imagem: "https://i.ibb.co/Hxw6cCH/manteiga500gfrente.png",
+      imagem2: "https://i.ibb.co/6vdG244/manteiga200g.png",
       porcoes: {
         porcaoMenor: "10 g",
         porcaoMiaor: "100 g",
