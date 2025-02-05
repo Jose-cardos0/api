@@ -10,8 +10,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "1",
       produto: "leite uht integral",
-      imagem: "https://i.ibb.co/YN4HRqd/leite-Integral1.png",
-      imagem2: "https://i.ibb.co/DYR5gfw/leite-Integral2.png",
+      imagem: "https://i.ibb.co/NnjLRY2L/leite-Uht-Exemplo.webp",
+      imagem2: "https://i.ibb.co/NnjLRY2L/leite-Uht-Exemplo.webp",
       porcoes: {
         porcaoMenor: "100ml",
         porcaoMiaor: "200ml",
@@ -78,8 +78,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "2",
       produto: "leite uht desnatado",
-      imagem: "https://i.ibb.co/XFgQrzv/desnatado1.png",
-      imagem2: "https://i.ibb.co/HdC8Kw0/desnatado2.png",
+      imagem: "https://i.ibb.co/hJ6V05WV/leite-Uht-Desn.webp",
+      imagem2: "https://i.ibb.co/hJ6V05WV/leite-Uht-Desn.webp",
       porcoes: {
         porcaoMenor: "100ml",
         porcaoMiaor: "200ml",
@@ -146,8 +146,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "3",
       produto: "leite uht zero lactose",
-      imagem: "https://i.ibb.co/yQYNRQx/lactose1.png",
-      imagem2: "https://i.ibb.co/TRwtRck/lactose2.png",
+      imagem: "https://i.ibb.co/hTgckS7/leite-Uht-Zero.webp",
+      imagem2: "https://i.ibb.co/hTgckS7/leite-Uht-Zero.webp",
       porcoes: {
         porcaoMenor: "100ml",
         porcaoMiaor: "200ml",
@@ -220,8 +220,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "4",
       produto: "queijo mussarela",
-      imagem: "https://i.ibb.co/Nx4kPZh/queijo-Mussarela1.png",
-      imagem2: "https://i.ibb.co/Nx4kPZh/queijo-Mussarela1.png",
+      imagem: "https://i.ibb.co/RpPN8fF9/mussarela.png",
+      imagem2: "https://i.ibb.co/RpPN8fF9/mussarela.png",
       porcoes: {
         porcaoMenor: "30 g",
         porcaoMiaor: "100 g",
@@ -287,8 +287,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "5",
       produto: "queijo de coalho",
-      imagem: "https://i.ibb.co/gVNB1Wd/coalhofrente.png",
-      imagem2: "https://i.ibb.co/DbKvkfq/coalho-Lado.png",
+      imagem: "https://i.ibb.co/HLmMmh4y/coalho.png",
+      imagem2: "https://i.ibb.co/HLmMmh4y/coalho.png",
       porcoes: {
         porcaoMenor: "30 g",
         porcaoMiaor: "100 g",
@@ -354,8 +354,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "6",
       produto: "queijo de prato",
-      imagem: "https://i.ibb.co/gtDzBTr/prato-Frente.png",
-      imagem2: "https://i.ibb.co/gPsFpct/prato-Lado2.png",
+      imagem: "https://i.ibb.co/YFtKWFf4/prato.png",
+      imagem2: "https://i.ibb.co/YFtKWFf4/prato.png",
       porcoes: {
         porcaoMenor: "30 g",
         porcaoMiaor: "100 g",
@@ -421,8 +421,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "7",
       produto: "manteiga de primeira qualidade com sal",
-      imagem: "https://i.ibb.co/Hxw6cCH/manteiga500gfrente.png",
-      imagem2: "https://i.ibb.co/6vdG244/manteiga200g.png",
+      imagem: "https://i.ibb.co/FL86ppfP/500frente.webp",
+      imagem2: "https://i.ibb.co/XmDKvBW/200topo.webp",
       porcoes: {
         porcaoMenor: "10 g",
         porcaoMiaor: "100 g",
@@ -471,8 +471,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "8",
       produto: "Bebida lactea sabor morango",
-      imagem: "https://i.ibb.co/HPNZ5V6/morsngo2.png",
-      imagem2: "https://i.ibb.co/HPNZ5V6/morsngo2.png",
+      imagem: "https://i.ibb.co/nqLKdN2w/morsngo2.webp",
+      imagem2: "https://i.ibb.co/nqLKdN2w/morsngo2.webp",
       porcoes: {
         porcaoMenor: "100g",
         porcaoMiaor: "200g",
@@ -539,8 +539,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "9",
       produto: "Bebida lactea sabor ameixa",
-      imagem: "https://i.ibb.co/DDcnCwG/ameixa2.png",
-      imagem2: "https://i.ibb.co/DDcnCwG/ameixa2.png",
+      imagem: "https://i.ibb.co/rRt7vg0h/ameixa2.webp",
+      imagem2: "https://i.ibb.co/rRt7vg0h/ameixa2.webp",
       porcoes: {
         porcaoMenor: "100g",
         porcaoMiaor: "200g",
@@ -607,8 +607,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "10",
       produto: "Bebida lactea sabor coco",
-      imagem: "https://i.ibb.co/t2CcG8w/coco2.png",
-      imagem2: "https://i.ibb.co/t2CcG8w/coco2.png",
+      imagem: "https://i.ibb.co/1tTLR4tt/coco2.webp",
+      imagem2: "https://i.ibb.co/1tTLR4tt/coco2.webp",
       porcoes: {
         porcaoMenor: "100g",
         porcaoMiaor: "200g",
@@ -675,8 +675,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "11",
       produto: "Bebida lactea sabor graviola",
-      imagem: "https://i.ibb.co/V9gQn9w/graviola2.png",
-      imagem2: "https://i.ibb.co/V9gQn9w/graviola2.png",
+      imagem: "https://i.ibb.co/mF1m8MpH/graviola2.webp",
+      imagem2: "https://i.ibb.co/mF1m8MpH/graviola2.webp",
       porcoes: {
         porcaoMenor: "100g",
         porcaoMiaor: "200g",
@@ -743,8 +743,8 @@ router.get("/produtos", (req, res) => {
     {
       id: "12",
       produto: "Bebida lactea sabor morango 540g",
-      imagem: "https://i.ibb.co/D8qSW8Z/bandeija.png",
-      imagem2: "https://i.ibb.co/D8qSW8Z/bandeija.png",
+      imagem: "https://i.ibb.co/6R02v6PV/bandeija.webp",
+      imagem2: "https://i.ibb.co/6R02v6PV/bandeija.webp",
       porcoes: {
         porcaoMenor: "90g",
         porcaoMiaor: "100g",
