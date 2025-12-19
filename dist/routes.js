@@ -1688,5 +1688,73 @@ router.get("/produtos", (req, res) => {
         validade: "180 dias",
       },
     },
+    {
+      id: "26",
+      produto: "creme de leite leve uht",
+      imagem: "https://i.ibb.co/C5VP446x/FRONT.webp",
+      imagem2: "https://i.ibb.co/1fttbYbx/LATERAL.webp",
+      porcoes: {
+        porcaoMenor: "15g",
+        porcaoMiaor: "100g",
+        porcao: "porcao por embalagem: 13",
+        porcaototal: "15 g (1 colher e 1/2 de sopa)",
+      },
+      nutritional100g: {
+        kcal: "27",
+        carbo: "0,6",
+        acucaresTotais: "0,6",
+        acucaresAdicionados: "0",
+        proteinas: "0,6",
+        gordurasTotais: "2,5",
+        gordurasSaturadas: "1,5",
+        gordurasTrans: "0",
+        fibrasAlimentares: "0",
+        sodio: "5",
+        calcio: "0",
+      },
+      nutritional200g: {
+        kcal: "180",
+        carbo: "0,6",
+        acucaresTotais: "0,6",
+        acucaresAdicionados: "0",
+        proteinas: "4",
+        gordurasTotais: "17",
+        gordurasSaturadas: "10",
+        gordurasTrans: "0",
+        fibrasAlimentares: "0",
+        sodio: "33",
+        calcio: "0",
+      },
+      vd: {
+        kcal: "9",
+        carbo: "2",
+        acucaresTotais: "",
+        acucaresAdicionados: "0",
+        proteinas: "5",
+        gordurasTotais: "30",
+        gordurasSaturadas: "45",
+        gordurasTrans: "",
+        fibrasAlimentares: "",
+        sodio: "3",
+        calcio: "1",
+      },
+      aviso: {
+        avisoTabela: "*Percentual de valores diários fornecidos pela porção.",
+      },
+      informacoes: {
+        ingredientes:
+          "Creme de leite, soro de leite em pó, espessante celulose microcristalina – ins 460(i), goma xantana – ins 415, carboximetilcelulose sódica – ins 466, carragena – ins 407 e estabilizantes trifosfato de sódio – ins 451(i), citrato de sódio – ins 331(iii), monofosfato monossódico – ins 339(i), difosfato dissódico – ins 450(i).",
+        alergenicos:
+          "NÃO CONTÉM GLÚTEN, ALÉRGICOS: CONTÉM LITE, CONTÉM LACTOSE.",
+        conservacaoFechado:
+          "produto fechado: armezenar em local seco e arejado.",
+        conservacaoAberto:
+          "produto aberto: não é necessário ferver este leite. após aberto, conservar sob refrigeração entre 0ºC e 10ºC e consumir em até 2 dias.",
+        gtin13: "7 89838712 044 8",
+        gtin14: "1 78 98387 12044 1",
+        paletizacao: "15x12 caixas",
+        validade: "180 dias",
+      },
+    },
   ]);
 });
