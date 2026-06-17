@@ -13,3 +13,9 @@
 //cors
 // npm install cors
 //npm install --save-dev @types/cors
+
+
+
+//enviar vercel
+//npx vercel login
+//npx vercel --prod
